@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.board {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: blue;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding:10px;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.butcont {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #55eb47;
+    padding:20px 30px;
+    margin:15px;
+    color :white;
+    font-weight: 800;
+}
+.button:nth-last-child(1) {
+    background-color: black;
+}
+.button:nth-last-child(2):hover {
+    background-color: #4ed12d;
+}
+.tile {
+    width:50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #55ff00;
+
+}
+
+.checker{
+    width:45px;
+    height:45px;
+    border-radius: 22.5px;
+    background-color: black;
+}
